@@ -2,7 +2,7 @@ const inquirer = require('inquirer');
 
 const generateFile = require('./utils/generateFile.js');
 
-const generateMD = require('./src/');
+const generateMD = require('./src/generatemarkdown.js');
 
 
 const promptUser = () => {
