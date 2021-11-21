@@ -1,8 +1,8 @@
 const inquirer = require('inquirer');
 
-const generateFile = require('./utils/');
+const generateFile = require('./utils/generateFile.js');
 
-const generateMD = require('./images/');
+const generateMD = require('./src/');
 
 
 const promptUser = () => {
@@ -131,3 +131,15 @@ const promptUser = () => {
         }
     ])
 }
+
+promptUser()
+    .then(generateMD)
+    .then(pageMD => {
+        return generateFile(pageMD);
+    })
+    .then(response => {
+        console.log(response);
+    })
+    .catch(err => {
+        console.log(err);
+    });
