@@ -60,3 +60,27 @@ const licBadge = (license) => {
 `
     }
 };
+
+module.exports = userInputs => {
+    return `
+# ${userInputs.title}
+${contribBadge(userInputs.contribute)} ${licBadge(userInputs.licenses)}
+## Description
+${userInputs.description}
+${checkTOC(userInputs.confirmToC)}
+## Installation
+${userInputs.installation}
+## Usage
+${userInputs.usage}
+## License
+${licenseCheck(userInputs.licenses, userInputs.name)}
+## Contributing
+${contribCheck(userInputs)}
+## Tests
+${userInputs.tests}
+## Questions
+If you have any questions or concerns, please feel free to contact me via Github or email!
+Email: ${userInputs.email}
+[Github](https://github.com/${userInputs.name})
+`
+};
