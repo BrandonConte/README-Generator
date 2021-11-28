@@ -1,12 +1,18 @@
 # README Generator
 
 ## <a href="#readme-badge"><img src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/table-of-context.png?raw=true" style="height: 40px"></a>
+- [About](#about)
+- [Usage](#usage)
+- [Built With](#built_using)
+- [Authors](#authors)
+- [Questions](#questions)
 
 ## <a href="#readme-badge"><img id="about" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/about.png?raw=true" style="height: 40px"></a>
 - This is a README Generator that when initialized via Command Prompt will ask questions about a certain topic and will ask for user input. This data that is inserted into the fields will then be
 added to a README file where information will be generated and stored.
 
 ## <a href="#readme-badge" target="_blank"><img id="usage" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/usage.png?raw=true" style="height: 40px"></a>
+<img src="./src/images/readmess.png" />
 
 ## <a href="#readme-badge"><img id="built_using" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/built-using.png?raw=true" style="height: 40px"></a>
 - Node.js
